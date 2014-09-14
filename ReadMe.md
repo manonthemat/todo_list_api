@@ -17,3 +17,6 @@ delete an item from the todo list
 
     curl -X DELETE http://localhost:3000/1
 
+to update an existing item
+
+    curl -X PUT -d 'play more games' http://localhost:3000/1
